@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+a {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+li {
+  font-family: "Open Sans", sans-serif;
+  list-style-position: inside;
+}
+
+h2 {
+  color: magenta;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  color: orangered;
+  font-family: "Open Sans", sans-serif;
+}
+
+h4 {
+  color: #fbff00;
+  font-family: "Open Sans", sans-serif;
+}
+
+h5 {
+  color: red;
+  font-family: "Open Sans", sans-serif;
+}
+
+h6 {
+  color: red;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul,
+li {
+  color: red;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  color: greenyellow;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #00ff2a;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Store {
+  color: #00ffee;
+}
+
+.listing1 {
+  color: red;
+}
+
+.listing2 {
+  color: #cccccc;
+}
+
+.listing3 {
+  color: lime;
+}
+
+.listing4 {
+  color: yellow
+}
+
+.listing5 {
+  color: #00ccff;
+}
+
+.listing6 {
+  color: orange;
+}
+
+.rainbow,
+pre {
+  color: #00ff2a;
+  text-align: center;
+  animation: thank 10s linear infinite;
+}
+
+@keyframes thank {
+  0% {
+    color: red;
+  }
+
+  17% {
+    color: orange;
+  }
+
+  33% {
+    color: yellow;
+  }
+
+  50% {
+    color: green;
+  }
+
+  67% {
+    color: blue;
+  }
+
+  83% {
+    color: indigo;
+  }
+
+  100% {
+    color: violet;
+  }
+}
+
+.line {
+  border: 1px solid lime;
+}
+
+.line2 {
+  border: 1px solid blue;
+}
+
+.line3 {
+  border: 1px solid red
+}
+
+pre {
+  color: #00ff2a;
+  text-align: center;
+  animation: erm_actually 10s linear infinite;
+}
+
+@keyframes erm_actually {
+  0% {
+    color: red;
+  }
+
+  17% {
+    color: orange;
+  }
+
+  33% {
+    color: yellow;
+  }
+
+  50% {
+    color: green;
+  }
+
+  67% {
+    color: blue;
+  }
+
+  83% {
+    color: indigo;
+  }
+
+  100% {
+    color: violet;
+  }
+}
+
+#Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* If you want to center it vertically within its container, ensure the container has a set height and use the following properties: */
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
